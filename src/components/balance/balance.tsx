@@ -17,8 +17,9 @@ export function Balance() {
   }, [getBalance]);
  
   return (
-    <div> 
-      Balance Tutorial <br /> Your confirmed balance is: {balance} 
+    <div className="balance">
+      <h3>Balance:</h3> 
+      <p> Your confirmed balance is: {balance}</p> 
     </div> 
   );
 }
