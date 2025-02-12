@@ -1,0 +1,21 @@
+.receive-nfc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .receive-nfc h3 {
+    margin-bottom: 10px;
+  }
+  
+  .receive-nfc p {
+    font-size: 16px;
+  }
+  
+  .status-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
